@@ -33,7 +33,7 @@ All these are integrated in real time using OpenCV to display:
 # RESULTS
 [Steering Angle Prediction Video](assets/steering_angle_prediction.mp4)
 [Object and Lane Prediction Video](assets/obj_n_lane_det.mp4)
-[FSD inference Video](assets/fsd_inference.mp4)
+![FSD inference Video](assets/fsd_inference.gif)
 
 
 # 📂 FOLDER STRUCTURE SUMMARY
@@ -159,7 +159,7 @@ python src/inference/run_fsd_inference.py
   SteeringAnglePredictor   ImageSegmentation   SelfDrivingCarSimulator
            |                   |
            ▼                   ▼
-   model.py (TensorFlow)     YOLOv11 Seg + Det Models
+   model.py (TensorFlow)   YOLOv11 Seg + Det Models
 
 
 # 💡 KEY IDEAS 
