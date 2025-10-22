@@ -1,0 +1,8 @@
+# Ignore dataset folder
+data/driving_dataset/
+
+# Ignore conda environment folder
+.conda/
+
+# Ignore explanation text file
+explaination.txt
