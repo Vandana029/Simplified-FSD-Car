@@ -64,6 +64,7 @@ Model Flow:
 - Input: `(66, 200, 3)` RGB image (cropped bottom road region).
 - Output: **Predicted steering angle** (in radians, scaled via `atan`).
 - Layers:
+
 | Layer      | Type                           | Details                                    |
 | ---------- | ------------------------------ | ------------------------------------------ |
 | Conv1      | 5x5 conv, 24 filters, stride 2 | Extracts low-level features.               |
@@ -158,7 +159,8 @@ python src/inference/run_fsd_inference.py
   SteeringAnglePredictor   ImageSegmentation   SelfDrivingCarSimulator
            |                   |
            ▼                   ▼
-   model.py (TensorFlow)  YOLOv11 Seg + Det Models
+   model.py (TensorFlow)     YOLOv11 Seg + Det Models
+
 
 # 💡 KEY IDEAS 
 - **Parallel Inference**:
